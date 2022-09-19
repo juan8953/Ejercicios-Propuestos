@@ -5,4 +5,6 @@
 
 def lista (str_01):
 
-        #Elaborar los cambios necesarios desde esta línea
+        #TODO: Elaborar los cambios necesarios desde esta línea
+        
+        return l_str01
