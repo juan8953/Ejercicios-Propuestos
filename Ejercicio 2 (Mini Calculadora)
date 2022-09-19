@@ -2,4 +2,4 @@
 #y el valor de estos números elevados al cuadrado; así mismo, que imprima cuál número es mayor.
 
 def mini_calculadora (n1,n2):
-#Elaborar los cambios necesarios desde esta sección.
+    #Elaborar los cambios necesarios a partir de  esta línea.
