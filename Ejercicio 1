@@ -1,4 +1,5 @@
-#Crear una función que reciba un número ingresado por parámetro y que imprima si el número es primo o no.
+#Crear una función que reciba un número ingresado por parámetro y que retorne si el número es primo o no.
 
 
 def es_primo (num):
+    #Elaborar la solución a partir de esta línea 
