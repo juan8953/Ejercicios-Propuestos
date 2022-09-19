@@ -2,3 +2,11 @@
 #para poder acceder al sistema, debe ser ingresada la contraseña propuesta anteriormente.
 #Si la constraseña es errónea, imprimir un mensaje advirtiendo de que la contraseña es incorrecta,
 #de lo contrario, imprimir un mensaje indicando que la constraseña es correcta.
+
+#Ejemplo:
+
+#El usuario ingresa la Contraseña "123321123" (Esta contraseña será la permanente)
+#El usuario intenta ingresar "123456789" 
+#Aparece un mensaje de Error.
+#Si el usuario ingresa la Contraseña "123321123"
+#Aparece un mensaje indicando que la contraseña es correcta.
