@@ -1,2 +1,4 @@
-#Elaborar un código que reciba una contraseña permanente, es decir, que no puede ser modificada, y además, para poder acceder al sistema, debe ser ingresada la contraseña propuesta anteriormente.
-#Si la constraseña es errónea, imprimir un mensaje advirtiendo de que la contraseña es incorrecta, de lo contrario, imprimir un mensaje indicando que la constraseña es correcta.
+#Elaborar un código que reciba una contraseña permanente, es decir, que no puede ser modificada, y además,
+#para poder acceder al sistema, debe ser ingresada la contraseña propuesta anteriormente.
+#Si la constraseña es errónea, imprimir un mensaje advirtiendo de que la contraseña es incorrecta,
+#de lo contrario, imprimir un mensaje indicando que la constraseña es correcta.
