@@ -1,5 +1,8 @@
-#Elaborar una función que reciba dos números por parámetro, y que retorne la suma entre ellos, la resta entre ellos, la división entre ellos,
-#y el valor de estos números elevados al cuadrado; así mismo, que imprima cuál número es mayor.
+#Elaborar una función que reciba dos números por parámetro, y que retorne la suma entre ellos, la resta entre ellos, la multiplicación entre ellos,
+# la división entre ellos, y el valor de estos números elevados al cuadrado; así mismo, que imprima cuál número es mayor.
 
 def mini_calculadora (n1,n2):
-    #Elaborar los cambios necesarios a partir de  esta línea.
+    #TODO: Elaborar los cambios necesarios a partir de  esta línea.
+    
+    return (suma, resta, div, mult, pot, mayor)
+    
