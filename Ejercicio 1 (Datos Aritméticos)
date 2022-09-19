@@ -1,0 +1,5 @@
+#Elaborar una función que reciba una lista de números por parámetro, y que retorne la suma de estos números, la mediana, la media y la moda.
+
+
+def f_aritmetico (lista):
+        #Elaborar los cambios necesarios a partir de esta línea
