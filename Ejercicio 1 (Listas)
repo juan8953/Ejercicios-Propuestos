@@ -7,4 +7,4 @@ def lista (str_01):
 
         #TODO: Elaborar los cambios necesarios desde esta línea
         
-        return l_str01
+        return (l_str01)
