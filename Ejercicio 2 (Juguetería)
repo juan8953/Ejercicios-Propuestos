@@ -29,7 +29,6 @@ class jugueteria():
     def __init__ (self,nombrecl,dinerocl):          #nombrecl será el nombre del cliente, seguido por dinerocl que será el dinero del cliente
         #TODO: Elaborar los cambios desde esta linea
         
-        return (self.nombrecl,self.dinerocl)         #Se debe retornar la nueva variable self.nombrecl y self.dinerocl, que significará el nombre del cilente y el dinero
     def comprar (self,juguete):                    #juguete será el juguete que el usuario desea comprar, NOTA: En esta función deberán ser colocados los juguetes, junto a su nombre, valor y stock
         #TODO: Elaborar los cambios desde esta linea
         
