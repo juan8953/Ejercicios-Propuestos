@@ -13,12 +13,33 @@
 #se cree una factura de pago, en la cual debe aparecer el nombre del cliente, el juguete que se compró, el valor del juguete, cuanto pagó
 #el cliente, y el dinero que hay que devolverle al cliente (las vueltas).
 
+#Los juguetes disponibles junto a su cantidad y valor en la tienda son los siguientes:
+|Juguete|Valor por unidad|Cantidad disponible|
+|---|----|---|
+|Oso|25000|24
+#Oso(24)                
+#Elefante(10)       
+#Tren(20)
+#Jirafa(14)
+#Pistola_Agua(5)
+#Paquete de carros(7)
+
 #Ejemplo: Mediante la consola de pycharm se ejecuta el siguiente código:
-#Cliente_01=jugueteria('Oso',90000)
+#Cliente_01=jugueteria('Jorge',900000)
 #Cliente_01.factura()
 
 
 class jugueteria():
 
-    def __init__ (self,juguete,paga):
-        #TODO: Elaborar los cambios desde esta sección
+    def __init__ (self,nombrecl,dinerocl):
+        #TODO: Elaborar los cambios desde esta linea
+        
+        return (self.nombrecl,self.dinerocl)
+    def comprar (self,juguete):
+        #TODO: Elaborar los cambios desde esta linea
+        
+        return(confirmacion)
+    def factura (self):
+        #TODO: Elaborar los cambios desde esta linea
+        
+        return(factura)
