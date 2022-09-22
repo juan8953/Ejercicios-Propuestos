@@ -1,15 +1,26 @@
-#Elaborar un código que reciba una contraseña permanente, es decir, que no puede ser modificada, y además,
-#para poder acceder al sistema, debe ser ingresada la contraseña propuesta anteriormente.
+#Elaborar una clase que funcione como sistema de constraseñas, recibiendo contraseñas por cada sistema
+#(será explicado brevemente).
+#Para poder acceder al sistema x, debe ser ingresada la contraseña propuesta anteriormente.
 #Si la constraseña es errónea, imprimir un mensaje advirtiendo de que la contraseña es incorrecta,
 #de lo contrario, imprimir un mensaje indicando que la constraseña es correcta.
 
+#NOTA: Importate recordar que la contraseña NO puede ser modificada
 #Ejemplo:
+#En la consola de pycharm se ingresa lo siguiente:
+#System01= contraseñas('123321123')
+#System01.acceder('23198272')
+#Mensaje de acceso inválido
+#System01.acceder('123321123'
+#Mensaje de acceso válido
 
-#El usuario ingresa la Contraseña "123321123" (Esta contraseña será la permanente)
-#El usuario intenta ingresar "123456789" 
-#Aparece un mensaje de Error.
-#Si el usuario ingresa la Contraseña "123321123"
-#Aparece un mensaje indicando que la contraseña es correcta.
 
-
-#TODO: Realizar el código desde esta línea.
+class contraseñas():
+    
+    def __init__ (self,contraseña):         #el parámetro contraseña será la contraseña que quiere ser establecida, es decir, la que no se puede modificar
+        #TODO: Realizar cambios a partir de esta línea
+        
+        return(self.__contraseña)         #Se retorna la constraseña establecida
+    def acceder (self, contraacc):           #El parámetro contraacc será la contraseña con la que se quiere acceder al sistema
+        #TODO: Realizar cambios a partir de esta línea
+        
+        return (acceso)        #Se debe retornar la variable acceso, que define si el acceso es válido o no.
