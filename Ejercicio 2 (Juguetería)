@@ -14,9 +14,13 @@
 #el cliente, y el dinero que hay que devolverle al cliente (las vueltas).
 
 #Los juguetes disponibles junto a su cantidad y valor en la tienda son los siguientes:
-|Juguete|Valor por unidad|Cantidad disponible|
-|---|----|---|
-|Oso|25000|24
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
 #Oso(24)                
 #Elefante(10)       
 #Tren(20)
