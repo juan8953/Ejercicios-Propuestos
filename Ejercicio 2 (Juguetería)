@@ -1,0 +1,24 @@
+#EN REVISION
+
+
+
+
+
+
+
+
+#Elaborar una clase que consista en una juguetería (seguir instrucciones del código)
+#Elaborar dentro de ella, una función con los siguientes parámetros: nombre del cliente, un juguete y un valor a pagar, todos por parámetro.
+#El ejercicio consiste en crear dicha funcion y que en el momento de insertar ambas variables 
+#se cree una factura de pago, en la cual debe aparecer el nombre del cliente, el juguete que se compró, el valor del juguete, cuanto pagó
+#el cliente, y el dinero que hay que devolverle al cliente (las vueltas).
+
+#Ejemplo: Mediante la consola de pycharm se ejecuta el siguiente código:
+#Cliente_01=jugueteria('Oso',90000)
+#Cliente_01.factura()
+
+
+class jugueteria():
+
+    def __init__ (self,juguete,paga):
+        #TODO: Elaborar los cambios desde esta sección
