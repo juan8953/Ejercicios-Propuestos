@@ -1,12 +1,3 @@
-#EN REVISION
-
-
-
-
-
-
-
-
 #Elaborar una clase que consista en una juguetería (seguir instrucciones del código)
 #Elaborar dentro de ella, una función con los siguientes parámetros: nombre del cliente, un juguete y un valor a pagar, todos por parámetro.
 #El ejercicio consiste en crear dicha funcion y que en el momento de insertar ambas variables 
@@ -15,22 +6,22 @@
 
 #Los juguetes disponibles junto a su cantidad y valor en la tienda son los siguientes:
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-
-#Oso(24)                
-#Elefante(10)       
-#Tren(20)
-#Jirafa(14)
-#Pistola_Agua(5)
-#Paquete de carros(7)
+#Oso(24)    25000c/u              
+#Elefante(10)       30000c/u
+#Tren(20)       40000c/u
+#Jirafa(14)         20000c/u
+#Pistola_Agua(5)        70000c/u
+#Paquete de carros(7)       80000c/u
 
 #Ejemplo: Mediante la consola de pycharm se ejecuta el siguiente código:
 #Cliente_01=jugueteria('Jorge',900000)
-#Cliente_01.factura()
+#Cliente_01.comprar(Oso)
+#Se imprime el mensaje que muestra que la compra ha sido hecha
+#Cliente_01.factura():
+#Imprime la factura con lo mencionado anteriormente
+
+#Nota: Importante recordar que cada vez que se compre un nuevo juguete su cantidad en stock bajará y si 
+#no quedan mas juguetes se debe imprimir un mensaje mencionando que no hay mas stock.
 
 
 class jugueteria():
