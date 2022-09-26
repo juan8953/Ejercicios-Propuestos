@@ -15,11 +15,21 @@
 
 
 class contraseñas():
+        '''
+        DOCUMENTACIÓN:
+        main class contraseñas
+        '''
     
     def __init__ (self,contraseña):         #el parámetro contraseña será la contraseña que quiere ser establecida, es decir, la que no se puede modificar
         #TODO: Realizar cambios a partir de esta línea
-        
+        '''
+        DOCUMENTACIÓN:
+        main.contraseñas def __init__(self, contraseña: Any) -> None
+        '''
     def acceder (self, contraacc):           #El parámetro contraacc será la contraseña con la que se quiere acceder al sistema
         #TODO: Realizar cambios a partir de esta línea
-        
+        '''
+        DOCUMENTACIÓN:
+        main.contraseñas def acceder(self, contraacc: Any) -> Any
+        '''
         return (acceso)        #Se debe retornar la variable acceso, que define si el acceso es válido o no.
