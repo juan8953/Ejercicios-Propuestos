@@ -5,6 +5,11 @@
 
 def lista (str_01):           #str_01 será la cadena de caracteres definida por parámetro, es decir, será la frase en la cual se va a trabajar.
         
+        '''
+        Documentación:
+        Parameter str_01 of main.lista str_01: Any
+        '''
+        
         #TODO: Elaborar los cambios necesarios desde esta línea
         
         return (l_str01)      #l_str01 será la lista con una mayúscula cada 2 carácteres de la función, lo que pide el ejercicio.
