@@ -4,12 +4,14 @@
 #La funcion recibe la cadena "es un dia soleado"; debe retornar ['e','S',' ',U','n',' ','d','I','a',' ','s','O','l','E','a','D','o']
 
 def lista (str_01):           #str_01 será la cadena de caracteres definida por parámetro, es decir, será la frase en la cual se va a trabajar.
-        
-        '''
-        Documentación:
-        Parameter str_01 of main.lista str_01: Any
-        '''
-        
-        #TODO: Elaborar los cambios necesarios desde esta línea
-        
-        return (l_str01)      #l_str01 será la lista con una mayúscula cada 2 carácteres de la función, lo que pide el ejercicio.
+  l_str0=list(str_01)
+  l_str01=[]
+  for i in range(0,len(l_str0)):
+    if i%2==0:
+      a=l_str0[i].upper()
+      l_str01.append(a)
+    else:
+      b=l_str0[i]
+      l_str01.append(b)    #TODO: Elaborar los cambios necesarios desde esta línea
+  return (l_str01)      #l_str01 será la lista con una mayúscula cada 2 carácteres de la función, lo que pide el ejercicio.
+print(lista("es un dia soleado"))
